@@ -1,0 +1,15 @@
+{
+  "name": "bc-wildfire-proximity-check",
+  "version": "1.0.0",
+  "description": "Check whether an active BC wildfire near a postal code or city currently has an evacuation order/alert in place.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
